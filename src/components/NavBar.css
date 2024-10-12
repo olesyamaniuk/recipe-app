@@ -21,19 +21,22 @@
 
 .navigation {
   width: 1440px;
-  margin: 0 auto 50px;
+  margin: 0 auto 80px;
   display: flex;
   align-items: center;
-  padding: 24px 20px;
-  position: relative;
+  padding: 14px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: #ffffffeb;
   border-radius: 0px 0px 40px 40px;
   justify-content: center;
-  padding: 20px;
-  flex-direction: row;
+  z-index: 1000;
 }
 
 .header {
   border-radius: 0px 0px 40px 40px;
   box-shadow: 0px 4px 20px 0px #71090b;
+  margin: 0 auto 80px;
 }
